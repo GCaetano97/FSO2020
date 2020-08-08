@@ -1,0 +1,14 @@
+note over browser:
+User enters the name of the note and clicks "Save" 
+end note
+
+note over browser:
+event handler is activated
+end note
+
+note over browser:
+new note is pushed to the array of notes and a rerender is done
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa \n JSON {note}
+server->browser: JSON {"message"}
