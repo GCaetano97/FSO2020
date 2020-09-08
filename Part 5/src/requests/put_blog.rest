@@ -1,0 +1,12 @@
+PUT http://localhost:3003/api/blogs/5f15affb53604e0564e8ad3c
+Content-Type: application/json
+
+
+
+{
+"title": "a new blog title2",
+"author": "Gonçalo Caetano",
+"url": "www.tes3t.test",
+"likes": 65,
+"user": "5f15a425dc353f1f9c38e72c",
+}
